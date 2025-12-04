@@ -24,13 +24,13 @@ function logout() {
 }
 
 // Check authentication and redirect if not logged in
-function requireAuth() {
-    if (!isLoggedIn()) {
-        window.location.href = '../index.html';
-        return false;
-    }
-    return true;
-}
+//function requireAuth() {
+   // if (!isLoggedIn()) {
+       // window.location.href = '../index.html';
+       // return false;
+  //  }
+    //return true;
+//}
 
 // Check if user has specific role
 function hasRole(role) {
@@ -122,3 +122,4 @@ function registerUser(userData) {
 
 // Initialize demo accounts on load
 initializeDemoAccounts();
+
