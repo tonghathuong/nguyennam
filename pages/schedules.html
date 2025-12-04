@@ -103,7 +103,7 @@
     <script src="../js/data.js"></script>
     <script src="../js/mobile.js"></script>
     <script>
-        requireAuth();
+        
         const schedules = getSchedules();
         const students = getStudents();
         const classes = [...new Set(students.map(s => s.class))];
@@ -183,3 +183,4 @@
     </script>
 </body>
 </html>
+
